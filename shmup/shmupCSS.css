@@ -1,0 +1,74 @@
+head {
+	background-color: #9F82FF;
+}
+
+h1 {
+	background-color: #9F8200;
+	margin-top: 10px;
+	font-size: 50px;
+	font-family: Arial;
+	background-height: 100px;
+	text-align: center;
+	padding: 14px 16px;
+	outline: thin solid;
+	text-shadow: 2px 2px 5px black;
+}
+
+body {
+	background-color: #D5DEED;
+	font-family: verdana;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+#content, html, body {
+    height: 98%;
+	overflow: hidden;
+}
+
+p {
+	font-weight: bold;
+}
+
+button {
+  font-weight: bold;
+  padding: 0 10px;
+  border: 1px black thin;
+  height: 60px;
+  width: 375px;
+  background-color: #0095DD;
+  border-radius: 8px;
+}
+
+button:hover{
+	background-color: #FFFFFF;
+}
+
+#left {
+    float: left;
+    width: 60%;
+    height: 400px;
+}
+#rightUp {
+    float: right;
+    width: 33%;
+    background: #d5deed;
+    height: 33%;
+    overflow: auto;
+}
+#rightDown {
+	text-align: center;
+    float: right;
+    width: 33%;
+    background: #d5deed;
+    height: 47%;
+    overflow: auto;
+}
+
+
+
+
+
+
+
+
